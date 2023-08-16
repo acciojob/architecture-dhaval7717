@@ -1,1 +1,36 @@
 /*  your css code here. If applicable */
+/* Reset some default styles */
+body, p {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 1100px;
+    margin: 0 auto;
+}
+
+.imageContainer {
+    text-align: center;
+    margin: 20px 0;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+td {
+    padding: 10px;
+    border: 1px solid #ccc;
+}
+
+.col1,
+.col3 {
+    width: 200px;
+    text-align: center;
+}
+
+.col2 {
+    width: 600px;
+}
